@@ -1,0 +1,12 @@
+# Exclude training data from Heroku deployment
+data/
+*.png
+*.jpg
+*.jpeg
+training_history.png
+
+# Exclude development files
+.git/
+.gitignore
+*.md
+LICENSE
